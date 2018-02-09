@@ -1,14 +1,5 @@
-﻿zuul:
-  prefix: /api
-  ignoredServices: '*'
-  routes:
-    vets-service: /vet/**
-    visits-service: /visit/**
-    customers-service: /customer/**
-    api-gateway: /gateway/**
-
 server:
-  port: 8085
+  port: 8087
   compression:
     enabled: true
     mime-types: application/json,text/css,application/javascript
